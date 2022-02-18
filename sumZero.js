@@ -2,7 +2,7 @@ let summArr = [];
 
 function addToZero(arr) {
   for (let i = 0; i < arr.length; i++) {
-    for (let j = 1; j < arr.length; j++) {
+    for (let j = i + 1; j < arr.length; j++) {
       summArr.push(arr[i] + arr[j]);
     }
   }
@@ -13,7 +13,7 @@ function addToZero(arr) {
   }
 }
 
-addToZero([1, 2, -1]);
+addToZero([1, 2, 8, 10, 4, 24, -8]);
 console.log(summArr);
 
 //Runtime for this code = O(n^2)
