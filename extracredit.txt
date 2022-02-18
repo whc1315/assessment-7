@@ -1,0 +1,9 @@
+Part 1
+Unshift is so much slower once array reach larger sizes due to it needing to unshift each element in the array and asign it a new index number. Meanwhile push will simply add the new element to the end of the array, not changing any of the existing elements.
+
+Part 2
+Space complexity:
+SumZero: O(n^2)
+UniqueChar: O(n^2)
+Pangram: O(1)
+LongestWord: O(n)
